@@ -19,7 +19,7 @@ end
 
 game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(state) 
     if state == Enum.TeleportState.InProgress then
-        messagebox("Hello skid who is skidding thunder", "Skid")
+        messagebox("Hello skid who is skidding thunder.", "Skid")
     end
 end)
 
