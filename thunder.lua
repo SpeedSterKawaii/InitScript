@@ -6,6 +6,14 @@ if game.PlaceId == 2377868063 then
   wait(0.30)
 end
 
+------ GAME TELEPORTER ------
+
+game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(state) 
+    if state == Enum.TeleportState.InProgress then
+        messagebox("Teleporting detected, roblox will now crash", "Teleporting Gay")
+    end
+end)
+
 ------ CHECK FUNCTION ------
 
 if getfenv then 
