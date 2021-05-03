@@ -6,6 +6,8 @@ if game.PlaceId == 2377868063 then
   wait(0.30)
 end
 
+------ CHECK FUNCTION ------
+
 if getfenv then 
   wait(0.30)
   else
