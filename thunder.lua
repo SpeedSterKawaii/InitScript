@@ -14,6 +14,14 @@ game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(state)
     end
 end)
 
+------ EXTRA FUNCTIONS ------
+
+function hint(msg)
+    local hint = Instance.new("Hint")
+    hint.Parent = game.Workspace
+    hint.Text = msg
+end
+
 ------ CHECK FUNCTION ------
 
 if getfenv then 
