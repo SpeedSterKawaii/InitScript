@@ -14,10 +14,6 @@ game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(state)
     end
 end)
 
------- WATERMARK ------
-
-info("Loaded")
-
 ------ EXTRA FUNCTIONS ------
 
 function hint(msg)
