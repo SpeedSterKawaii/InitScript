@@ -55,7 +55,7 @@ function fireproximityprompt(Obj, Amount, Skip)
     end
 end
 
-function RandomCharacters(length)
+function randomstring(length)
 	local STR = ''
 	
 	for i = 1, length do
