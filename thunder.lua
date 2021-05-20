@@ -55,6 +55,16 @@ function fireproximityprompt(Obj, Amount, Skip)
     end
 end
 
+function RandomCharacters(length)
+	local STR = ''
+	
+	for i = 1, length do
+		STR = STR .. string.char(math.random(65,90))
+	end
+	
+	return STR
+end
+
 ------ CHECK FUNCTION ------
 
 if getfenv then 
